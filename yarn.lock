@@ -16,9 +16,9 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.27.1.tgz#a7054dcc145a967dd4dc8fee845a57c1316c9df8"
   integrity sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==
 
-"@erc6900/reference-implementation@github:erc6900/reference-implementation#v0.8.0":
+"@erc6900/reference-implementation@https://github.com/erc6900/reference-implementation/archive/refs/tags/v0.8.0.tar.gz":
   version "0.8.0"
-  resolved "https://codeload.github.com/erc6900/reference-implementation/tar.gz/c9b256cfd963a655179fa3cd9ea3f92c73cbfcdd"
+  resolved "https://github.com/erc6900/reference-implementation/archive/refs/tags/v0.8.0.tar.gz#c132bb985dd749c4a26d5f602021678a71d97a09"
 
 "@ethereumjs/rlp@^4.0.1":
   version "4.0.1"
@@ -575,9 +575,9 @@ abbrev@1.0.x:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.0.9.tgz#91b4792588a7738c25f35dd6f63752a2f8776135"
   integrity sha512-LEyx4aLEC3x6T0UguF6YILf+ntvmOaWsVfENmIW0E9H09vKlLDGelMjjSm0jkDHALj8A8quZ/HapKNigzwge+Q==
 
-"account-abstraction@github:eth-infinitism/account-abstraction#v0.7.0":
+"account-abstraction@https://github.com/eth-infinitism/account-abstraction/archive/refs/tags/v0.7.0.tar.gz":
   version "0.7.0"
-  resolved "https://codeload.github.com/eth-infinitism/account-abstraction/tar.gz/7af70c8993a6f42973f520ae0752386a5032abe7"
+  resolved "https://github.com/eth-infinitism/account-abstraction/archive/refs/tags/v0.7.0.tar.gz#dfe97a12df9b770fad4e17e8f7a3b29dcefe940d"
   dependencies:
     "@nomiclabs/hardhat-etherscan" "^2.1.6"
     "@openzeppelin/contracts" "^5.0.0"
@@ -2244,11 +2244,6 @@ pluralize@^8.0.0:
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-8.0.0.tgz#1a6fa16a38d12a1901e0320fa017051c539ce3b1"
   integrity sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==
 
-pnpm@^9.15.0:
-  version "9.15.9"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-9.15.9.tgz#acafe6003ef0e6b24e01c24245a840f659cca155"
-  integrity sha512-aARhQYk8ZvrQHAeSMRKOmvuJ74fiaR1p5NQO7iKJiClf1GghgbrlW1hBjDolO95lpQXsfF+UA+zlzDzTfc8lMQ==
-
 possible-typed-array-names@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/possible-typed-array-names/-/possible-typed-array-names-1.1.0.tgz#93e3582bc0e5426586d9d07b79ee40fc841de4ae"
@@ -2527,9 +2522,10 @@ slice-ansi@^4.0.0:
     astral-regex "^2.0.0"
     is-fullwidth-code-point "^3.0.0"
 
-"solady@github:Vectorized/solady#v0.0.237":
-  version "0.0.237"
-  resolved "https://codeload.github.com/Vectorized/solady/tar.gz/24b6272d83fba9a4233bafafbcd7f879e3b0948b"
+solady@^0.1.24:
+  version "0.1.26"
+  resolved "https://registry.yarnpkg.com/solady/-/solady-0.1.26.tgz#80b4d621cfdbd82b772c5c701877d2f0ca12736f"
+  integrity sha512-dhGr/ptJFdea/1KE6xgqgwEdbMhUiSfRc6A+jLeltPe16zyt9qtED3PElIBVRnzEmUO5aZTjKVAr6SlqXBBcIw==
 
 solhint@^3.6.2:
   version "3.6.2"
@@ -2892,6 +2888,11 @@ yargs@^16.2.0:
     string-width "^4.2.0"
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
+
+yarn@^9.15.0:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-2.4.3.tgz#f6f3ca06dd47eb47db34a80bd461fc936db31f04"
+  integrity sha512-HQ8VJL8v1Tlq+VVzcohmYw7dHtZ6VUB4/b2oHRGQc6Xv00AQjVk4C6cyqu4iHRI4esfgIi8S9doOm1d3Z3MlPA==
 
 yocto-queue@^0.1.0:
   version "0.1.0"
