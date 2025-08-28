@@ -1,13 +1,13 @@
 {
   "name": "modular-account",
+  "license": "GPL-3.0-or-later",
   "version": "v1.0.1",
   "dependencies": {
-    "account-abstraction": "https://github.com/eth-infinitism/account-abstraction/archive/refs/tags/v0.7.0.tar.gz",
     "@erc6900/reference-implementation": "https://github.com/erc6900/reference-implementation/archive/refs/tags/v0.8.0.tar.gz",
+    "account-abstraction": "https://github.com/eth-infinitism/account-abstraction/archive/refs/tags/v0.7.0.tar.gz",
     "solady": "^0.1.24"
   },
   "devDependencies": {
-    "yarn": "^9.15.0",
     "solhint": "^3.6.2"
   },
   "scripts": {
